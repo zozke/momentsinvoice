@@ -1,9 +1,22 @@
+import Image from "next/image";
 import { partners } from "@/lib/constants";
 
 export default function Footer() {
   return (
     <footer className="bg-braun text-white/80 py-16 px-6">
       <div className="max-w-6xl mx-auto">
+        {/* Logo */}
+        <div className="flex justify-center mb-12">
+          <Image
+            src="/images/logo-rund.webp"
+            alt="Moments in Voice Logo"
+            width={640}
+            height={436}
+            className="w-56 md:w-72 h-auto brightness-0 invert opacity-90"
+            unoptimized
+          />
+        </div>
+
         {/* Partners */}
         <div className="text-center mb-12">
           <p className="font-heading text-lg text-white/60 mb-6">
@@ -24,7 +37,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="font-heading text-xl text-white">
+            <p className="font-script text-3xl text-white">
               Moments in Voice
             </p>
             <p className="font-body text-xs text-white/40">

@@ -18,6 +18,7 @@
 
   --font-heading: var(--font-playfair);
   --font-body: var(--font-montserrat);
+  --font-script: var(--font-greatvibes);
 }
 
 html {

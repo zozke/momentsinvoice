@@ -22,33 +22,41 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <motion.p
-          className="font-body text-sm md:text-base tracking-[0.3em] uppercase text-white/80 mb-6"
+        <motion.div
+          className="flex justify-center mb-8"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Zwei Stimmen für eure Liebe(n)
-        </motion.p>
+          <Image
+            src="/images/logo-horizontal.webp"
+            alt="Moments in Voice — Gesang und Worte für emotionale Momente"
+            width={960}
+            height={685}
+            className="w-80 md:w-[26rem] lg:w-[540px] h-auto brightness-0 invert drop-shadow-lg"
+            priority
+            unoptimized
+          />
+        </motion.div>
 
         <motion.h1
-          className="font-heading text-4xl md:text-6xl lg:text-7xl text-white font-medium leading-tight mb-6"
+          className="font-heading text-3xl md:text-5xl lg:text-6xl text-white font-medium leading-tight mb-6"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Gesang und Worte
+          Wir schaffen Momente,
           <br />
-          <span className="text-rose-light">für emotionale Momente</span>
+          <span className="text-rose-light">die in Erinnerung bleiben</span>
         </motion.h1>
 
         <motion.p
-          className="font-body text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto"
+          className="font-body text-lg md:text-xl tracking-[0.2em] uppercase text-white/90 mb-10 max-w-2xl mx-auto"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Wir schaffen Momente, die in Erinnerung bleiben.
+          Zwei Stimmen für eure Liebe(n)
         </motion.p>
 
         <motion.div

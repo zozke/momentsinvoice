@@ -42,7 +42,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
             <span
-              className={`font-heading text-2xl font-semibold tracking-tight transition-colors duration-500 ${
+              className={`font-script text-3xl md:text-4xl transition-colors duration-500 ${
                 scrolled ? "text-braun" : "text-white"
               }`}
             >

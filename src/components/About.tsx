@@ -55,8 +55,8 @@ export default function About() {
                 bleiben.
               </p>
               <p className="font-heading text-xl text-braun italic">
-                &bdquo;Es sind die leisen Augenblicke, die bleiben. Ein Blick.
-                Ein Versprechen. Ein Abschied.&ldquo;
+                &bdquo;Mal als Duo, mal einzeln &mdash; immer mit ganzem
+                Herzen.&ldquo;
               </p>
             </div>
           </div>
